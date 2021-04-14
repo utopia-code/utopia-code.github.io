@@ -179,8 +179,8 @@ $(function () { // wait for document ready
     var scene3 = new ScrollMagic.Scene({
         triggerElement: "#start", 
         triggerHook: "onCenter",
-        duration: 600,
-        offset: 500
+        duration: 500,
+        offset: 400
         })
             
             .setTween(laola)
