@@ -48,7 +48,7 @@ body {
 .audio-controls audio::-internal-media-controls-button-hover-background {
   display: none;
 }
-.audio-controls audio::-webkit-media-controls-timeline, .audio-controls audio::-webkit-media-controls-fullscreen-button, .audio-controls audio::-webkit-media-controls-current-time-display, .audio-controls audio::-webkit-media-controls-time-remaining-display {
+.audio-controls audio::-webkit-media-controls-timeline, .audio-controls audio::-webkit-media-controls-fullscreen-button, .audio-controls audio::-webkit-media-controls-current-time-display, .audio-controls audio::-webkit-media-controls-time-remaining-display, .audio-controls audio::-internal-media-controls-overflow-button {
   display: none;
 }
 .audio-controls audio::-webkit-media-controls-enclosure {
@@ -70,7 +70,7 @@ body {
   height: 32px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 9px;
 }
 

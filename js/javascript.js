@@ -180,7 +180,7 @@ $(function () { // wait for document ready
         triggerElement: "#start", 
         triggerHook: "onCenter",
         duration: 600,
-        offset: 1000
+        offset: 500
         })
             
             .setTween(laola)
