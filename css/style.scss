@@ -72,7 +72,13 @@ body {
   audio::-internal-media-controls-button-hover-background {
     display: none;
   }
-  audio::-webkit-media-controls-timeline, audio::-webkit-media-controls-fullscreen-button, audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display, audio::-internal-media-controls-overflow-button {
+  audio::-webkit-media-controls-timeline,
+  audio::-webkit-media-controls-fullscreen-button, 
+  audio::-webkit-media-controls-current-time-display, 
+  audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+  audio::-internal-media-controls-overflow-button {
     display: none;
   }
   audio::-webkit-media-controls-enclosure {
