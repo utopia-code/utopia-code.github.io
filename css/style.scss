@@ -24,8 +24,8 @@ $color_love: #852d2c;
 .desktop-first {
   display: none;
 }
-
-@media screen and (min-width: 1250px) {
+// 1250px
+@media screen and (min-width: 1050px) {
   .mobile-no-first {
     display: none;
   }
