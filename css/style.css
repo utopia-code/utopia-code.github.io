@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+.mobile-no-first {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.desktop-first {
+  display: none;
+}
+
+@media screen and (min-width: 1250px) {
+  .mobile-no-first {
+    display: none;
+  }
+
+  .desktop-first {
+    display: block;
+  }
+}
 body {
   background-color: transparent;
   background-image: none;
